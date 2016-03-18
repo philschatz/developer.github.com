@@ -35,7 +35,7 @@ Name | Type | Description
 `state`|`string`| Indicates the state of the issues to return. Can be either `open`, `closed`, or `all`. Default: `open`
 `labels`|`string`| A list of comma separated label names.  Example: `bug,ui,@high`
 `sort`|`string`|  What to sort results by. Can be either `created`, `updated`, `comments`. Default: `created`
-`direction`|`string`| The direction of the sort. Can be either `asc` or `desc`. Default: `desc`
+`direction`|`string`| The direction of the sort. Can be either `asc` or `desc`. Default: `asc`
 `since`|`string` | Only issues updated at or after this time are returned. This is a timestamp in ISO 8601 format: `YYYY-MM-DDTHH:MM:SSZ`.
 
 ### Response
